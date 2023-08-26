@@ -1,0 +1,23 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Animation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>I'm <span class="auto-type"></span></h1>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Lateefah Raji","a student of Obafemi Awolowo University", "a front-end developer"],
+                typeSpeed: 50,
+                backSpeed: 25,
+                loop: true
+            })
+        </script>
+    </body>
+    </html>
